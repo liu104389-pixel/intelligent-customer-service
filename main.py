@@ -13,7 +13,7 @@ print("API Key from env:", os.getenv("DASHSCOPE_API_KEY"))
 BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 llm = ChatOpenAI(
     model="qwen-max",
-    api_key="sk-eb3714e54f394795ae76c5293210c8a8",  # 直接粘贴
+    api_key="sk-71de30a8def44b68a50e2f9236deb674",  # 直接粘贴
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
     temperature=0.5,
     max_tokens=2000,
